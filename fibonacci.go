@@ -16,7 +16,7 @@ func fibonachi(son int) {
 	fmt.Println(second_num)
 	first_p := &first_num
 	second_p := &second_num
-	for second_num != son {
+	for second_num <= son {
 		add := first_num + second_num
 		fmt.Println(add)
 		*first_p = second_num
